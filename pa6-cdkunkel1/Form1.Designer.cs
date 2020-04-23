@@ -37,24 +37,27 @@
             // lblCWID
             // 
             this.lblCWID.AutoSize = true;
-            this.lblCWID.Location = new System.Drawing.Point(55, 163);
+            this.lblCWID.Location = new System.Drawing.Point(45, 127);
+            this.lblCWID.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblCWID.Name = "lblCWID";
-            this.lblCWID.Size = new System.Drawing.Size(400, 55);
+            this.lblCWID.Size = new System.Drawing.Size(316, 44);
             this.lblCWID.TabIndex = 0;
             this.lblCWID.Text = "Enter your CWID:";
             // 
             // txtCWID
             // 
-            this.txtCWID.Location = new System.Drawing.Point(572, 157);
+            this.txtCWID.Location = new System.Drawing.Point(466, 122);
+            this.txtCWID.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtCWID.Name = "txtCWID";
-            this.txtCWID.Size = new System.Drawing.Size(541, 61);
+            this.txtCWID.Size = new System.Drawing.Size(442, 49);
             this.txtCWID.TabIndex = 1;
             // 
             // btnOK
             // 
-            this.btnOK.Location = new System.Drawing.Point(572, 299);
+            this.btnOK.Location = new System.Drawing.Point(466, 233);
+            this.btnOK.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnOK.Name = "btnOK";
-            this.btnOK.Size = new System.Drawing.Size(249, 88);
+            this.btnOK.Size = new System.Drawing.Size(203, 68);
             this.btnOK.TabIndex = 2;
             this.btnOK.Text = "OK";
             this.btnOK.UseVisualStyleBackColor = true;
@@ -62,9 +65,10 @@
             // 
             // btnClose
             // 
-            this.btnClose.Location = new System.Drawing.Point(864, 299);
+            this.btnClose.Location = new System.Drawing.Point(704, 233);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(249, 88);
+            this.btnClose.Size = new System.Drawing.Size(203, 68);
             this.btnClose.TabIndex = 3;
             this.btnClose.Text = "Close";
             this.btnClose.UseVisualStyleBackColor = true;
@@ -72,15 +76,15 @@
             // 
             // frmCWID
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(27F, 54F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(22F, 42F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1177, 586);
+            this.ClientSize = new System.Drawing.Size(959, 352);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnOK);
             this.Controls.Add(this.txtCWID);
             this.Controls.Add(this.lblCWID);
-            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.1F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.1F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmCWID";
             this.Text = "CWID";
             this.ResumeLayout(false);
