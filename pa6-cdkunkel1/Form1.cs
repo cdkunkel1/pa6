@@ -16,12 +16,12 @@ namespace pa6_cdkunkel1
         {
             InitializeComponent();
         }
-
+        //Window closes when you click the close button
         private void btnClose_Click(object sender, EventArgs e)
         {
             this.Close();
         }
-
+        //Takes you to the next form after entering in a CWID
         private void btnOK_Click(object sender, EventArgs e)
         {
             this.Hide();

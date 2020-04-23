@@ -18,3 +18,7 @@ C:\Users\corbi\source\repos\pa6\pa6-cdkunkel1\obj\Debug\pa6_cdkunkel1.Properties
 C:\Users\corbi\source\repos\pa6\pa6-cdkunkel1\obj\Debug\pa6-cdkunkel1.csproj.GenerateResource.cache
 C:\Users\corbi\source\repos\pa6\pa6-cdkunkel1\obj\Debug\pa6-cdkunkel1.exe
 C:\Users\corbi\source\repos\pa6\pa6-cdkunkel1\obj\Debug\pa6-cdkunkel1.pdb
+C:\Users\corbi\source\repos\pa6\pa6-cdkunkel1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\corbi\source\repos\pa6\pa6-cdkunkel1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\corbi\source\repos\pa6\pa6-cdkunkel1\obj\Debug\pa6-cdkunkel1.csproj.CopyComplete
+C:\Users\corbi\source\repos\pa6\pa6-cdkunkel1\obj\Debug\pa6_cdkunkel1.frmEdit.resources

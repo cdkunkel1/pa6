@@ -64,7 +64,7 @@
             // txtTitleData
             // 
             this.txtTitleData.Location = new System.Drawing.Point(473, 73);
-            this.txtTitleData.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtTitleData.Margin = new System.Windows.Forms.Padding(2);
             this.txtTitleData.Name = "txtTitleData";
             this.txtTitleData.Size = new System.Drawing.Size(223, 45);
             this.txtTitleData.TabIndex = 1;
@@ -72,7 +72,7 @@
             // txtAuthorData
             // 
             this.txtAuthorData.Location = new System.Drawing.Point(473, 188);
-            this.txtAuthorData.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtAuthorData.Margin = new System.Windows.Forms.Padding(2);
             this.txtAuthorData.Name = "txtAuthorData";
             this.txtAuthorData.Size = new System.Drawing.Size(223, 45);
             this.txtAuthorData.TabIndex = 3;
@@ -92,7 +92,7 @@
             // txtGenreData
             // 
             this.txtGenreData.Location = new System.Drawing.Point(473, 309);
-            this.txtGenreData.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtGenreData.Margin = new System.Windows.Forms.Padding(2);
             this.txtGenreData.Name = "txtGenreData";
             this.txtGenreData.Size = new System.Drawing.Size(223, 45);
             this.txtGenreData.TabIndex = 5;
@@ -110,7 +110,7 @@
             // txtCopiesData
             // 
             this.txtCopiesData.Location = new System.Drawing.Point(473, 435);
-            this.txtCopiesData.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtCopiesData.Margin = new System.Windows.Forms.Padding(2);
             this.txtCopiesData.Name = "txtCopiesData";
             this.txtCopiesData.Size = new System.Drawing.Size(223, 45);
             this.txtCopiesData.TabIndex = 7;
@@ -128,7 +128,7 @@
             // txtISBNData
             // 
             this.txtISBNData.Location = new System.Drawing.Point(473, 553);
-            this.txtISBNData.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtISBNData.Margin = new System.Windows.Forms.Padding(2);
             this.txtISBNData.Name = "txtISBNData";
             this.txtISBNData.Size = new System.Drawing.Size(223, 45);
             this.txtISBNData.TabIndex = 9;
@@ -146,7 +146,7 @@
             // txtLengthData
             // 
             this.txtLengthData.Location = new System.Drawing.Point(473, 683);
-            this.txtLengthData.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtLengthData.Margin = new System.Windows.Forms.Padding(2);
             this.txtLengthData.Name = "txtLengthData";
             this.txtLengthData.Size = new System.Drawing.Size(223, 45);
             this.txtLengthData.TabIndex = 11;
@@ -166,15 +166,16 @@
             this.lstBooks.FormattingEnabled = true;
             this.lstBooks.ItemHeight = 38;
             this.lstBooks.Location = new System.Drawing.Point(54, 17);
-            this.lstBooks.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.lstBooks.Margin = new System.Windows.Forms.Padding(2);
             this.lstBooks.Name = "lstBooks";
             this.lstBooks.Size = new System.Drawing.Size(375, 460);
             this.lstBooks.TabIndex = 12;
+            this.lstBooks.SelectedIndexChanged += new System.EventHandler(this.lstBooks_SelectedIndexChanged);
             // 
             // pbCover
             // 
             this.pbCover.Location = new System.Drawing.Point(793, 17);
-            this.pbCover.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pbCover.Margin = new System.Windows.Forms.Padding(2);
             this.pbCover.Name = "pbCover";
             this.pbCover.Size = new System.Drawing.Size(403, 460);
             this.pbCover.TabIndex = 13;
@@ -183,58 +184,62 @@
             // btnRent
             // 
             this.btnRent.Location = new System.Drawing.Point(793, 538);
-            this.btnRent.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnRent.Margin = new System.Windows.Forms.Padding(2);
             this.btnRent.Name = "btnRent";
             this.btnRent.Size = new System.Drawing.Size(177, 59);
             this.btnRent.TabIndex = 14;
             this.btnRent.Text = "Rent";
             this.btnRent.UseVisualStyleBackColor = true;
+            this.btnRent.Click += new System.EventHandler(this.btnRent_Click);
             // 
             // btnReturn
             // 
             this.btnReturn.Location = new System.Drawing.Point(1019, 538);
-            this.btnReturn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnReturn.Margin = new System.Windows.Forms.Padding(2);
             this.btnReturn.Name = "btnReturn";
             this.btnReturn.Size = new System.Drawing.Size(177, 59);
             this.btnReturn.TabIndex = 15;
             this.btnReturn.Text = "Return";
             this.btnReturn.UseVisualStyleBackColor = true;
+            this.btnReturn.Click += new System.EventHandler(this.btnReturn_Click);
             // 
             // btnNew
             // 
             this.btnNew.Location = new System.Drawing.Point(723, 669);
-            this.btnNew.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnNew.Margin = new System.Windows.Forms.Padding(2);
             this.btnNew.Name = "btnNew";
             this.btnNew.Size = new System.Drawing.Size(120, 59);
             this.btnNew.TabIndex = 16;
             this.btnNew.Text = "New";
             this.btnNew.UseVisualStyleBackColor = true;
-            this.btnNew.Click += new System.EventHandler(this.button1_Click);
+            this.btnNew.Click += new System.EventHandler(this.btnNew_Click);
             // 
             // btnEdit
             // 
             this.btnEdit.Location = new System.Drawing.Point(867, 669);
-            this.btnEdit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnEdit.Margin = new System.Windows.Forms.Padding(2);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(120, 59);
             this.btnEdit.TabIndex = 17;
             this.btnEdit.Text = "Edit";
             this.btnEdit.UseVisualStyleBackColor = true;
+            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
             // btnDelete
             // 
             this.btnDelete.Location = new System.Drawing.Point(1004, 669);
-            this.btnDelete.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(2);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(120, 59);
             this.btnDelete.TabIndex = 18;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnClose
             // 
             this.btnClose.Location = new System.Drawing.Point(1146, 669);
-            this.btnClose.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(2);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(120, 59);
             this.btnClose.TabIndex = 19;
